@@ -1,5 +1,4 @@
 import * as React from 'react';
-import * as PropTypes from 'prop-types';
 import { AntAnchor } from './Anchor';
 import { ConfigConsumerProps } from '../config-provider';
 export interface AnchorLinkProps {
@@ -10,20 +9,16 @@ export interface AnchorLinkProps {
     children?: React.ReactNode;
     className?: string;
 }
-declare class AnchorLink extends React.Component<AnchorLinkProps, any> {
+declare class AnchorLink extends React.Component<AnchorLinkProps, any, AntAnchor> {
     static defaultProps: {
         href: string;
     };
-    static contextTypes: {
-        antAnchor: PropTypes.Requireable<object>;
-    };
-    context: {
-        antAnchor: AntAnchor;
-    };
+    static contextType: React.Context<AntAnchor>;
+    context: AntAnchor;
     componentDidMount(): void;
     componentDidUpdate({ href: prevHref }: AnchorLinkProps): void;
     componentWillUnmount(): void;
-    handleClick: (e: React.MouseEvent<HTMLElement, MouseEvent>) => void;
+    handleClick: (e: React.MouseEvent<HTMLElement>) => void;
     renderAnchorLink: ({ getPrefixCls }: ConfigConsumerProps) => JSX.Element;
     render(): JSX.Element;
 }

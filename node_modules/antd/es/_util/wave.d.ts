@@ -3,19 +3,21 @@ import { ConfigConsumerProps } from '../config-provider';
 export default class Wave extends React.Component<{
     insertExtraNode?: boolean;
 }> {
+    static contextType: React.Context<ConfigConsumerProps>;
     private instance?;
     private extraNode;
     private clickWaveTimeoutId;
     private animationStartId;
     private animationStart;
-    private destroy;
+    private destroyed;
     private csp?;
+    context: ConfigConsumerProps;
     componentDidMount(): void;
     componentWillUnmount(): void;
     onClick: (node: HTMLElement, waveColor: string) => void;
     onTransitionStart: (e: AnimationEvent) => void;
     onTransitionEnd: (e: AnimationEvent) => void;
-    getAttributeName(): "ant-click-animating" | "ant-click-animating-without-extra-node";
+    getAttributeName(): string;
     bindAnimationEvent: (node: HTMLElement) => {
         cancel: () => void;
     } | undefined;

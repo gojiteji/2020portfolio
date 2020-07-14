@@ -14,8 +14,10 @@ export interface PaginationProps {
     showQuickJumper?: boolean | {
         goButton?: React.ReactNode;
     };
+    showTitle?: boolean;
     showTotal?: (total: number, range: [number, number]) => React.ReactNode;
-    size?: string;
+    size?: 'default' | 'small';
+    responsive?: boolean;
     simple?: boolean;
     style?: React.CSSProperties;
     locale?: Object;
@@ -26,17 +28,10 @@ export interface PaginationProps {
     role?: string;
     showLessItems?: boolean;
 }
+export declare type PaginationPosition = 'top' | 'bottom' | 'both';
 export interface PaginationConfig extends PaginationProps {
-    position?: 'top' | 'bottom' | 'both';
+    position?: PaginationPosition;
 }
 export declare type PaginationLocale = any;
-export default class Pagination extends React.Component<PaginationProps, {}> {
-    getIconsProps: (prefixCls: string, direction: "ltr" | "rtl" | undefined) => {
-        prevIcon: JSX.Element;
-        nextIcon: JSX.Element;
-        jumpPrevIcon: JSX.Element;
-        jumpNextIcon: JSX.Element;
-    };
-    renderPagination: (contextLocale: any) => JSX.Element;
-    render(): JSX.Element;
-}
+declare const Pagination: React.FC<PaginationProps>;
+export default Pagination;

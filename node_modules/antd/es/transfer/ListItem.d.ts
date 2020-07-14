@@ -1,5 +1,15 @@
 import * as React from 'react';
-export default class ListItem extends React.Component<any, any> {
-    shouldComponentUpdate(...args: any[]): any;
-    render(): JSX.Element;
-}
+import { TransferItem } from '.';
+declare type ListItemProps = {
+    renderedText?: string | number;
+    renderedEl: React.ReactNode;
+    disabled?: boolean;
+    checked?: boolean;
+    prefixCls: string;
+    onClick: (item: TransferItem) => void;
+    onRemove?: (item: TransferItem) => void;
+    item: TransferItem;
+    showRemove?: boolean;
+};
+declare const _default: React.MemoExoticComponent<(props: ListItemProps) => JSX.Element>;
+export default _default;

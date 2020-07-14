@@ -28,7 +28,7 @@ declare class TreeSelect<T> extends React.Component<TreeSelectProps<T>, {}> {
     constructor(props: TreeSelectProps<T>);
     focus(): void;
     blur(): void;
-    renderTreeSelect: ({ getPopupContainer: getContextPopupContainer, getPrefixCls, renderEmpty, direction, }: ConfigConsumerProps) => JSX.Element;
+    renderTreeSelect: ({ getPopupContainer: getContextPopupContainer, getPrefixCls, renderEmpty, direction, virtual, dropdownMatchSelectWidth, }: ConfigConsumerProps) => JSX.Element;
     render(): JSX.Element;
 }
 export { TreeNode };

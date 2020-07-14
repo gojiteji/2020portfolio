@@ -6,10 +6,13 @@ import * as React from 'react';
 interface TransButtonProps extends React.HTMLAttributes<HTMLDivElement> {
     onClick?: (e?: React.MouseEvent<HTMLDivElement>) => void;
     noStyle?: boolean;
+    autoFocus?: boolean;
+    disabled?: boolean;
 }
 declare class TransButton extends React.Component<TransButtonProps> {
     div?: HTMLDivElement;
     lastKeyCode?: number;
+    componentDidMount(): void;
     onKeyDown: React.KeyboardEventHandler<HTMLDivElement>;
     onKeyUp: React.KeyboardEventHandler<HTMLDivElement>;
     setRef: (btn: HTMLDivElement) => void;

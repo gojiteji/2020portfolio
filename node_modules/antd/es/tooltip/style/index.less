@@ -21,10 +21,6 @@
   max-width: @tooltip-max-width;
   visibility: visible;
 
-  &-rtl {
-    direction: rtl;
-  }
-
   &-hidden {
     display: none;
   }
@@ -65,10 +61,6 @@
     background-color: @tooltip-bg;
     border-radius: @border-radius-base;
     box-shadow: @box-shadow-base;
-
-    .@{tooltip-prefix-cls}-rtl & {
-      text-align: right;
-    }
   }
 
   // Arrows
@@ -81,7 +73,7 @@
     background: transparent;
     pointer-events: none;
 
-    &::before {
+    &-content {
       position: absolute;
       top: 0;
       right: 0;
@@ -102,7 +94,7 @@
   &-placement-topRight &-arrow {
     bottom: @tooltip-distance - @tooltip-arrow-rotate-width;
 
-    &::before {
+    &-content {
       box-shadow: @tooltip-arrow-shadow-width @tooltip-arrow-shadow-width 7px fade(@black, 7%);
       transform: translateY(-@tooltip-arrow-rotate-width / 2) rotate(45deg);
     }
@@ -126,7 +118,7 @@
   &-placement-rightBottom &-arrow {
     left: @tooltip-distance - @tooltip-arrow-rotate-width;
 
-    &::before {
+    &-content {
       box-shadow: -@tooltip-arrow-shadow-width @tooltip-arrow-shadow-width 7px fade(@black, 7%);
       transform: translateX(@tooltip-arrow-rotate-width / 2) rotate(45deg);
     }
@@ -150,7 +142,7 @@
   &-placement-leftBottom &-arrow {
     right: @tooltip-distance - @tooltip-arrow-rotate-width;
 
-    &::before {
+    &-content {
       box-shadow: @tooltip-arrow-shadow-width -@tooltip-arrow-shadow-width 7px fade(@black, 7%);
       transform: translateX(-@tooltip-arrow-rotate-width / 2) rotate(45deg);
     }
@@ -174,7 +166,7 @@
   &-placement-bottomRight &-arrow {
     top: @tooltip-distance - @tooltip-arrow-rotate-width;
 
-    &::before {
+    &-content {
       box-shadow: -@tooltip-arrow-shadow-width -@tooltip-arrow-shadow-width 7px fade(@black, 7%);
       transform: translateY(@tooltip-arrow-rotate-width / 2) rotate(45deg);
     }
@@ -193,3 +185,22 @@
     right: @tooltip-arrow-offset-horizontal;
   }
 }
+
+.generator-tooltip-preset-color(@i: length(@preset-colors)) when (@i > 0) {
+  .generator-tooltip-preset-color(@i - 1);
+  @color: extract(@preset-colors, @i);
+  @lightColor: '@{color}-6';
+  .@{tooltip-prefix-cls}-@{color} {
+    .@{tooltip-prefix-cls}-inner {
+      background-color: @@lightColor;
+    }
+    .@{tooltip-prefix-cls}-arrow {
+      &-content {
+        background-color: @@lightColor;
+      }
+    }
+  }
+}
+.generator-tooltip-preset-color();
+
+@import './rtl';

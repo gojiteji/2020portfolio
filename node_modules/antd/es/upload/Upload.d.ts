@@ -29,13 +29,13 @@ declare class Upload extends React.Component<UploadProps, UploadState> {
     componentWillUnmount(): void;
     saveUpload: (node: any) => void;
     onStart: (file: RcFile) => void;
-    onSuccess: (response: any, file: UploadFile<any>, xhr: any) => void;
+    onSuccess: (response: any, file: UploadFile, xhr: any) => void;
     onProgress: (e: {
         percent: number;
-    }, file: UploadFile<any>) => void;
-    onError: (error: Error, response: any, file: UploadFile<any>) => void;
-    handleRemove: (file: UploadFile<any>) => void;
-    onChange: (info: UploadChangeParam<UploadFile<any>>) => void;
+    }, file: UploadFile) => void;
+    onError: (error: Error, response: any, file: UploadFile) => void;
+    handleRemove: (file: UploadFile) => void;
+    onChange: (info: UploadChangeParam) => void;
     onFileDrop: (e: React.DragEvent<HTMLDivElement>) => void;
     beforeUpload: (file: RcFile, fileList: RcFile[]) => boolean | PromiseLike<void>;
     clearProgressTimer(): void;

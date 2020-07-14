@@ -1,5 +1,7 @@
 import * as React from 'react';
-export default class MiniSelect extends React.Component<any, any> {
-    static Option: import("rc-select/lib/Option").OptionFC;
-    render(): JSX.Element;
+import Select from '../select';
+interface MiniSelectInterface extends React.FC<any> {
+    Option: typeof Select.Option;
 }
+declare const MiniSelect: MiniSelectInterface;
+export default MiniSelect;

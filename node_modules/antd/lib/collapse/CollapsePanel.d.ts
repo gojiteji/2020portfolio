@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { ConfigConsumerProps } from '../config-provider';
 export interface CollapsePanelProps {
     key: string | number;
     header: React.ReactNode;
@@ -12,7 +11,5 @@ export interface CollapsePanelProps {
     id?: string;
     extra?: React.ReactNode;
 }
-export default class CollapsePanel extends React.Component<CollapsePanelProps, {}> {
-    renderCollapsePanel: ({ getPrefixCls }: ConfigConsumerProps) => JSX.Element;
-    render(): JSX.Element;
-}
+declare const CollapsePanel: React.FC<CollapsePanelProps>;
+export default CollapsePanel;

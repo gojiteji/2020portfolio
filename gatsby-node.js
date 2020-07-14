@@ -14,7 +14,6 @@ exports.createPages = ({ actions, graphql }) => {
           node {
             frontmatter {
               path
-              tags
             }
             fileAbsolutePath
           }
@@ -29,10 +28,10 @@ exports.createPages = ({ actions, graphql }) => {
     /* Post pages */
     allMarkdownRemark.edges.forEach(({ node }) => {
       // Check path prefix of post
-      if (node.frontmatter.path.indexOf(config.pages.blog) !== 0) {
-        // eslint-disable-next-line no-throw-literal
-        throw `Invalid path prefix: ${node.frontmatter.path}`;
-      }
+      //if (node.frontmatter.path.indexOf(config.pages.blog) !== 0) {
+      //  // eslint-disable-next-line no-throw-literal
+      //  throw `Invalid path prefix: ${node.frontmatter.path}`;
+      //}
 
       createPage({
         path: node.frontmatter.path,
@@ -48,24 +47,24 @@ exports.createPages = ({ actions, graphql }) => {
     const defaultPosts = allMarkdownRemark.edges
       .filter(({ node: { fileAbsolutePath } }) => fileAbsolutePath.match(regexForIndex));
 
-    /* Tag pages */
-    const allTags = [];
-    defaultPosts.forEach(({ node }) => {
-      node.frontmatter.tags.forEach((tag) => {
-        if (allTags.indexOf(tag) === -1) allTags.push(tag);
-      });
-    });
+    ///* Tag pages */
+    //const allTags = [];
+    //defaultPosts.forEach(({ node }) => {
+    //  node.frontmatter.tags.forEach((tag) => {
+    //    if (allTags.indexOf(tag) === -1) allTags.push(tag);
+    //  });
+    //});
 
-    allTags
-      .forEach((tag) => {
-        createPage({
-          path: utils.resolvePageUrl(config.pages.tag, tag),
-          component: path.resolve('src/templates/tags/index.jsx'),
-          context: {
-            tag,
-          },
-        });
-      });
+    //allTags
+    //  .forEach((tag) => {
+    //    createPage({
+    //      path: utils.resolvePageUrl(config.pages.tag, tag),
+    //      component: path.resolve('src/templates/tags/index.jsx'),
+    //      context: {
+    //        tag,
+    //      },
+    //    });
+    //  });
 
     return 1;
   });

@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { ConfigConsumerProps } from '../config-provider';
 import ErrorBoundary from './ErrorBoundary';
 export interface AlertProps {
     /**
@@ -20,24 +19,19 @@ export interface AlertProps {
     afterClose?: () => void;
     /** Whether to show icon */
     showIcon?: boolean;
+    /** https://www.w3.org/TR/2014/REC-html5-20141028/dom.html#aria-role-attribute */
+    role?: string;
     style?: React.CSSProperties;
     prefixCls?: string;
     className?: string;
     banner?: boolean;
     icon?: React.ReactNode;
+    onMouseEnter?: React.MouseEventHandler<HTMLDivElement>;
+    onMouseLeave?: React.MouseEventHandler<HTMLDivElement>;
+    onClick?: React.MouseEventHandler<HTMLDivElement>;
 }
-export interface AlertState {
-    closing: boolean;
-    closed: boolean;
+interface AlertInterface extends React.FC<AlertProps> {
+    ErrorBoundary: typeof ErrorBoundary;
 }
-export default class Alert extends React.Component<AlertProps, AlertState> {
-    static ErrorBoundary: typeof ErrorBoundary;
-    state: {
-        closing: boolean;
-        closed: boolean;
-    };
-    handleClose: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
-    animationEnd: () => void;
-    renderAlert: ({ getPrefixCls, direction }: ConfigConsumerProps) => JSX.Element | null;
-    render(): JSX.Element;
-}
+declare const Alert: AlertInterface;
+export default Alert;
