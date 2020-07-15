@@ -57,7 +57,7 @@ const awarddata = [
   date: "2017",
   title: 'パソコン甲子園2017　モバイル部門　グランプリ受賞',
   label: '',
-  location: '2017/11/3-4"',
+  location: '2017/11/3-4',
   content: (<div>Product:NOTELOOK</div>),
 },
 {
