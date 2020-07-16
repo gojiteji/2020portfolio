@@ -87,11 +87,17 @@ module.exports = [
   {
     resolve: 'gatsby-plugin-google-analytics',
     options: {
-      publisherId: 'ca-pub-6186852655158169',
       // The property ID; the tracking code won't be generated without it
       trackingId: config.googleAnalyticTrackingId,
       // Defines where to place the tracking script - `true` in the head and `false` in the body
       head: true,
+    },
+  },
+
+  {
+    resolve: `gatsby-plugin-google-adsense`,
+    options: {
+      publisherId: `ca-pub-6186852655158169`
     },
   },
   {
