@@ -11,6 +11,13 @@ const interndata = [
 
   {
     date: "2020",
+    title: 'Rakuten 二子玉川夏の陣 2020 online internship',
+    label: '',
+    location: '2020/9/14-25',
+    content: (<div></div>),
+},
+  {
+    date: "2020",
     title: 'CyberAgent 2days サーバーサイド向け開発型インターンシップ',
     label: '',
     location: '2020/6/6-7',
@@ -39,6 +46,7 @@ const interndata = [
 
 
 const awarddata = [
+  
   {
       date: "2019",
       title: '平成30年度 起業家甲子園 jig.jp賞　さくらインターネット賞',

@@ -33,6 +33,7 @@ Department of Electronic and Information Engineering</li></Row>
           percent={75}
           text="C++"
         />
+
       </Col>
       <Col xs={24} sm={24} md={12}>
       <ProgressBar

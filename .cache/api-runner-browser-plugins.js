@@ -9,7 +9,7 @@ module.exports = [{
       options: {"plugins":[],"maxWidth":1000,"quality":80,"showCaptions":true,"linkImagesToOriginal":false},
     },{
       plugin: require('../node_modules/gatsby-plugin-google-analytics/gatsby-browser.js'),
-      options: {"plugins":[],"trackingId":"UA-143776882-1","head":false},
+      options: {"plugins":[],"trackingId":"UA-143776882-1","head":true},
     },{
       plugin: require('../node_modules/gatsby-plugin-nprogress/gatsby-browser.js'),
       options: {"plugins":[],"color":"black","showSpinner":true},
