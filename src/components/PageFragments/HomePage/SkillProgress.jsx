@@ -30,17 +30,6 @@ Department of Electronic and Information Engineering</li></Row>
           text="Go"
         />
         <ProgressBar
-          percent={75}
-          text="C++"
-        />
-
-      </Col>
-      <Col xs={24} sm={24} md={12}>
-      <ProgressBar
-          percent={80}
-          text="JavaScript"
-        />
-        <ProgressBar
           percent={70}
           text="UnityC#"
         />
