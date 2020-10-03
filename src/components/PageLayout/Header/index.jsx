@@ -49,7 +49,7 @@ export default () => {
             </li>
             <li className={style.navItem}>
               <a href="https://blog.gojiteji.com" target = "_blank">
-                Blog
+                <b>✏️Blog</b>
               </a>
             </li>
 
