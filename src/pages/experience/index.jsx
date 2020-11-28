@@ -46,7 +46,14 @@ const interndata = [
 
 
 const awarddata = [
-  
+    
+  {
+    date: "2020",
+    title: 'JPHACKS2020　Award Day Finalist',
+    label: '',
+    location: '2020/11/28',
+    content: (<div>Product:arcana</div>),
+},
   {
       date: "2019",
       title: '平成30年度 起業家甲子園 jig.jp賞　さくらインターネット賞',
