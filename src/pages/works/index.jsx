@@ -18,6 +18,15 @@ const Works = () => (
         </div>
 
       <Row gutter={[20, 20]}>
+      <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
+            img="arcana.png"
+            alt="arcana"
+            textH4="Let's manage the fluid level!"
+            textH3="arcana"
+            link="https://blog.gojiteji.com/2020/11/28/jphacks2020/"
+          />
+        </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="game.png"

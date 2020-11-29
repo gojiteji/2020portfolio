@@ -14,7 +14,7 @@ const Blog = ({ data }) => (
       <Header />
       <SEO
         title="Blog"
-        description=""
+        description="s"
         path="blog"
       />
       <SidebarWrapper>
