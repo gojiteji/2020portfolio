@@ -8,7 +8,13 @@ import 'react-events-timeline/dist/main.css';
 
 
 const interndata = [
-
+  {
+    date: "2020",
+    title: 'kitalabs Web Engineer',
+    label: '',
+    location: '2020/10-present',
+    content: (<div></div>),
+},
   {
     date: "2020",
     title: 'Rakuten 二子玉川夏の陣 2020 online internship',
