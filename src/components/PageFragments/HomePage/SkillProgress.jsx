@@ -37,6 +37,11 @@ Department of Electronic and Information Engineering</li></Row>
           percent={75}
           text="Ichigojam Basic"
         />
+        
+        <ProgressBar
+          percent={75}
+          text="JavaScript(React)"
+        />
       </Col>
     </Row>
     
