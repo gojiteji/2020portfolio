@@ -11,7 +11,7 @@ const SkillsProgress = () => (
     <Row gutter={[10, 20]}><li><h3>Hokkaido University School of Engineering (Apr. 2020 - Mar. 2022(expected))</h3>
     Division of Media and Network Technologies / Department of Electronics and Information Engineering</li></Row>
     <br/>
-    <Row gutter={[20, 20]}><li><h3>National Institute of Technology, Suzuka College, (Apr. 2015 - Mar. 2020)</h3>
+    <Row gutter={[20, 20]}><li><h3>National Institute of Technology, Suzuka College (Apr. 2015 - Mar. 2020)</h3>
 Department of Electronic and Information Engineering</li></Row>
 </ul>
 </Row>

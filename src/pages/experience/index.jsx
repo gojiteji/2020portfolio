@@ -12,7 +12,7 @@ const interndata = [
     date: "2020",
     title: 'kitalabs Web Engineer',
     label: '',
-    location: '2020/10-present',
+    location: '2020/10-2021/3',
     content: (<div></div>),
 },
   {
