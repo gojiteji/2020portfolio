@@ -8,8 +8,8 @@ const SkillsProgress = () => (
     <h2>Education</h2>
     <Row gutter={[20, 20]}>
     <ul>
-    <Row gutter={[10, 20]}><li><h3>Hokkaido University School of Engineering (Apr. 2020 - Mar. 2022(expected))</h3>
-    Language Media Laboratory</li></Row>
+    <Row gutter={[10, 20]}><li><h3>Hokkaido University(Apr. 2020 - Mar. 2022(expected))</h3>
+    School of Engineering Language Media Laboratory</li></Row>
     <br/>
     <Row gutter={[20, 20]}><li><h3>National Institute of Technology, Suzuka College (Apr. 2015 - Mar. 2020)</h3>
 Department of Electronic and Information Engineering</li></Row>
