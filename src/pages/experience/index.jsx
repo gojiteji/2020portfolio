@@ -101,7 +101,7 @@ const Experience = () => (
           <h1 className="titleSeparate">Experience</h1>
         </div>
 
-        <EventsTimeline title='Internship' icon={ <i className='fa fa-code'/>} color='' data={interndata} />
+        <EventsTimeline title='Internships & Jobs' icon={ <i className='fa fa-code'/>} color='' data={interndata} />
         <br/><br/><br/>
         <EventsTimeline title='Awards' icon={ <i  className='fa fa-trophy '/>} color='#FFDC00' data={awarddata} />
 
