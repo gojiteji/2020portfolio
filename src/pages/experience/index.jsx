@@ -17,7 +17,7 @@ const interndata = [
 },
   {
     date: "2020",
-    title: 'KitaLabs, inc. Web Engineer',
+    title: 'KitaLabs Web Engineer',
     label: '',
     location: '2020/10-2021/3',
     content: (<div></div>),
