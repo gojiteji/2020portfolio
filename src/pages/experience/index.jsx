@@ -9,8 +9,15 @@ import 'react-events-timeline/dist/main.css';
 
 const interndata = [
   {
+    date: "2021",
+    title: 'ELYZA, ML Engineer Internship',
+    label: '',
+    location: '2021/5-',
+    content: (<div></div>),
+},
+  {
     date: "2020",
-    title: 'kitalabs Web Engineer',
+    title: 'KitaLabs, inc. Web Engineer',
     label: '',
     location: '2020/10-2021/3',
     content: (<div></div>),
