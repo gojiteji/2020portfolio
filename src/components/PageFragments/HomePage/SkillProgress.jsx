@@ -26,6 +26,11 @@ Department of Electronic and Information Engineering</li></Row>
           
         />
         <ProgressBar
+          percent={85}
+          text="C++"
+          
+        />
+        <ProgressBar
           percent={70}
           text="Go"
         />
