@@ -20,6 +20,15 @@ const Works = () => (
       <Row gutter={[20, 20]}>
       <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
+            img="https://blog.gojiteji.com/images/r_intern/0.png"
+            alt="PROG.CAFÉ"
+            textH4="Virtual Cｓo-working Space"
+            textH3="PROG.CAFÉ"
+            link="https://blog.gojiteji.com/2020/09/26/r-intern/"
+          />
+        </Col>
+      <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
             img="arcana.png"
             alt="arcana"
             textH4="Let's manage the fluid level!"
