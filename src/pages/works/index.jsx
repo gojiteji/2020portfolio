@@ -32,7 +32,7 @@ const Works = () => (
             img="1.png"
             alt="ここで一句"
             textH4="AR Haiku App"
-            textH3="ここで一句.CAFÉ"
+            textH3="ここで一句"
             link="https://blog.gojiteji.com/2021/02/19/unitygps/"
           />
         </Col>
