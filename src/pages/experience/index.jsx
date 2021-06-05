@@ -52,6 +52,13 @@ const interndata = [
   location: '2018/9/3-9/7',
   content: (<div></div>),
 },
+{
+  date: "2016",
+  title: 'トビタテ留学ジャパン高校生2期',
+  label: '',
+  location: '',
+  content: (<div></div>),
+},
 
 ];
 
