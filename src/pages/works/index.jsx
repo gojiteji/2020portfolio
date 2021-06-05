@@ -27,6 +27,15 @@ const Works = () => (
             link="https://blog.gojiteji.com/2020/09/26/r-intern/"
           />
         </Col>
+        <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
+            img="1.png"
+            alt="ここで一句"
+            textH4="AR Haiku App"
+            textH3="ここで一句.CAFÉ"
+            link="https://blog.gojiteji.com/2021/02/19/unitygps/"
+          />
+        </Col>
       <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="arcana.png"
