@@ -20,9 +20,9 @@ const Works = () => (
       <Row gutter={[20, 20]}>
       <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="https://blog.gojiteji.com/images/r_intern/0.png"
+            img="0.png"
             alt="PROG.CAFÉ"
-            textH4="Virtual Cｓo-working Space"
+            textH4="Virtual Co-working Space"
             textH3="PROG.CAFÉ"
             link="https://blog.gojiteji.com/2020/09/26/r-intern/"
           />
