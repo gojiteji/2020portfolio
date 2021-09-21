@@ -12,7 +12,7 @@ const interndata = [
     date: "2021",
     title: 'ELYZA, ML Engineer Internship',
     label: '',
-    location: '2021/5-',
+    location: '2021/5-2021/9',
     content: (<div></div>),
 },
   {
