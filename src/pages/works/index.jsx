@@ -18,6 +18,9 @@ const Works = () => (
         </div>
 
 
+
+
+      <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="3.png"
@@ -28,9 +31,7 @@ const Works = () => (
           />
         </Col>
 
-
-      <Row gutter={[20, 20]}>
-      <Col xs={24} sm={24} md={12} lg={8}>
+  <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="0.png"
             alt="PROG.CAFÉ"
