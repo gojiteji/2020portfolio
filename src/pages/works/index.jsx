@@ -20,7 +20,7 @@ const Works = () => (
 
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="3.jpeg"
+            img="3.png"
             alt="COCONOMASK"
             textH4="COcoa NOtitfication MASK"
             textH3="COCONOMASK"
