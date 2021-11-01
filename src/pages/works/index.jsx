@@ -17,6 +17,18 @@ const Works = () => (
           <h1 className="titleSeparate">Works</h1>
         </div>
 
+
+        <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
+            img="3.jpeg"
+            alt="COCONOMASK"
+            textH4="COcoa NOtitfication MASK"
+            textH3="COCONOMASK"
+            link="https://github.com/jphacks/A_2111"
+          />
+        </Col>
+
+
       <Row gutter={[20, 20]}>
       <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
