@@ -66,7 +66,7 @@ const awarddata = [
     date: "2021",
     title: 'JPHACKS2021　Award Day Finalist',
     label: '',
-    location: '2020/11/20',
+    location: '2021/11/20',
     content: (<div>Product:ココノマスク</div>),
 },
 
