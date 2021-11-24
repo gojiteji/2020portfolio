@@ -105,13 +105,6 @@ const awarddata = [
   location: '2017/11/3-4',
   content: (<div>Product:NOTELOOK</div>),
 },
-{
-  date: "2016",
-  title: '第1回docomo近未来学生アイデアコンテスト　敢闘賞',
-  label: '',
-  location: '2016/2/27',
-  content: (<div>Product:おらわらお</div>),
-},
 ];
 
 
