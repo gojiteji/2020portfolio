@@ -2,9 +2,8 @@ import React from 'react';
 import { Layout, Row, Col } from 'antd';
 import Header from '../../components/PageLayout/Header';
 import SidebarWrapper from '../../components/PageLayout/Sidebar';
-import ContactForm from '../../components/PageFragments/ContactForm';
 import AboutTile from '../../components/AbouTile';
-
+import Helmet from "react-helmet"
 
 
 const Works = () => (
@@ -12,6 +11,7 @@ const Works = () => (
     <Layout className="container">
 
       <Header />
+      <Helmet title="gojiteji | Works" />
       <SidebarWrapper>
         <div className="marginTopTitle">
           <h1 className="titleSeparate">Works</h1>
@@ -73,7 +73,6 @@ const Works = () => (
             alt="Mothman"
             textH4="streaming and archiving web app"
             textH3="Mothman"
-            width='250'
             link='https://hackmd.io/@gojiteji/H1WG6E0xS'
           />
         </Col>

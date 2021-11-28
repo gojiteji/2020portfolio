@@ -2,7 +2,7 @@ import React from 'react';
 import { Layout, Row, Col } from 'antd';
 import Header from '../../components/PageLayout/Header';
 import SidebarWrapper from '../../components/PageLayout/Sidebar';
-
+import Helmet from "react-helmet"
 import EventsTimeline from 'react-events-timeline';
 import 'react-events-timeline/dist/main.css';
 
@@ -113,6 +113,7 @@ const Experience = () => (
     <Layout className="container">
 
       <Header />
+      <Helmet title="gojiteji | Experience" />
       <SidebarWrapper>
         <div className="marginTopTitle">
           <h1 className="titleSeparate">Experience</h1>

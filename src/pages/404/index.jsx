@@ -3,7 +3,7 @@ import { Layout } from 'antd';
 import { Link, graphql } from 'gatsby';
 import Header from '../../components/PageLayout/Header';
 import style from './404.module.less';
-
+import Helmet from "react-helmet"
 import { Sidebar404 } from '../../components/PageLayout/Sidebar';
 
 export const query = graphql`
@@ -22,6 +22,7 @@ export default ({ data }) => (
   <Layout className="outerPadding">
     <Layout className="container">
       <Header />
+      <Helmet title="gojiteji | 404" />
       <Sidebar404>
         <>
           <div className={`${style.sidebar404Img} ${style.boxContent}`}>
