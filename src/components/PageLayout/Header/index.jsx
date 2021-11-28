@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
 import { Layout } from 'antd';
+import FeatherIcon from 'feather-icons-react';
 import 'font-awesome/less/font-awesome.less';
 import style from './header.module.less';
 import '../../../styles/global.less';
