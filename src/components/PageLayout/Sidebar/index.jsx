@@ -53,7 +53,7 @@ const DomContent = () => (
 
      
       <div className={style.contact}>
-        <a href="mailto:mail@gojiteji.com" download target="_blank"> 　　Mail　　</a>
+        <a href="mailto:mail@gojiteji.com" download target="_blank"> <FeatherIcon size="19" icon="mail" />　　Mail　　</a>
       </div>
 
     </div>
