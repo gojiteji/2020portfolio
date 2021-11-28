@@ -53,7 +53,7 @@ const Works = () => (
           <AboutTile
             img="arcana.png"
             alt="arcana"
-            textH4="Let's manage the fluid level!"
+            textH4="Fluid level manager"
             textH3="arcana"
             link="https://blog.gojiteji.com/2020/11/28/jphacks2020/"
           />
@@ -71,7 +71,7 @@ const Works = () => (
           <AboutTile
             img="mothman.png"
             alt="Mothman"
-            textH4="A web application that can stream and archive presentations."
+            textH4="streaming and archiving web app"
             textH3="Mothman"
             width='250'
             link='https://hackmd.io/@gojiteji/H1WG6E0xS'
@@ -81,7 +81,7 @@ const Works = () => (
           <AboutTile
             img="NOTELOOK.png"
             alt="NOTELOOK"
-            textH4="This device allows you to write directly on each other's paper notes."
+            textH4="writing directly on each other's paper notes"
             textH3="NOTELOOK"
             link='https://hackmd.io/@gojiteji/B1zOCN0eH'
           />
@@ -100,7 +100,7 @@ const Works = () => (
           <AboutTile
             img="gacha.png"
             alt="高専祭バザーガチャ"
-            textH4="Calculate the menu for the school festival from your budget."
+            textH4="Menu generator for the school festival."
             textH3="高専祭バザーガチャ"
             link='https://eq.gojiteji.com'
           />
@@ -109,7 +109,7 @@ const Works = () => (
           <AboutTile
             img="kaimin.png"
             alt="kaimin"
-            textH4="This app finds other users who have similar habits to revise your lifestyle."
+            textH4="An app that finds similar habits to revise your lifestyle."
             textH3="kaimin"
             link='https://hackmd.io/@gojiteji/By9t8xcl8'
           />
