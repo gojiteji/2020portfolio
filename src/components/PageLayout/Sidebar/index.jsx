@@ -35,6 +35,12 @@ const DomContent = () => (
           {' '}
 &nbsp; &nbsp; Japan
         </li>
+        <li className={`${style.contactBlockItem}`}>
+          <span><FeatherIcon size="19" icon="globe" /></span>
+          {' '}
+&nbsp; &nbsp; English/日本語
+        </li>
+
       <div className="centerAlign box">
         <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
         <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FA name="github" /></a>
@@ -44,7 +50,7 @@ const DomContent = () => (
 
      
       <div className={style.contact}>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhEXAkWGxw4woadbbJa83ZvQVdfoSECjunTUR_L1_2bchVOg/viewform" download target="_blank"> 　　Contact　　</a>
+        <a href="mailto:mail@gojiteji.com" download target="_blank"> 　　Mail　　</a>
       </div>
 
     </div>
