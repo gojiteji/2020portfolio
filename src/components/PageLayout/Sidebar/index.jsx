@@ -33,29 +33,30 @@ const DomContent = () => (
       <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="map-pin" /></span>
           {' '}
-&nbsp; &nbsp; Japan
+&nbsp;  Japan
         </li>
         <div className={`${style.boxName} centerAlign`}>
 
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="globe" /></span>
           {' '}
-&nbsp; &nbsp; English/日本語
+&nbsp;  English/日本語
         </li>
         </div>
+        <div className={`${style.boxName} centerAlign`}>
+
+<li className={`${style.contactBlockItem}`}>
+  <span><FeatherIcon size="19" icon="mail" /></span>
+  {' '}
+<a href="mailto:mail@gojiteji.com">&nbsp; mail@gojiteji.com</a>
+</li>
+</div>
 
       <div className="centerAlign box">
         <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
         <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FA name="github" /></a>
         <a href={instagram} target="_blank" label="button" rel="noopener noreferrer"><FA name="linkedin" /></a>
       </div>
-
-
-     
-      <div className={style.contact}>
-        <a href="mailto:mail@gojiteji.com" download target="_blank">send Mail</a>
-      </div>
-
     </div>
   </aside>
 );
