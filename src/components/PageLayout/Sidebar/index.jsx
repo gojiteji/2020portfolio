@@ -35,11 +35,14 @@ const DomContent = () => (
           {' '}
 &nbsp; &nbsp; Japan
         </li>
+        <div className={`${style.boxName} centerAlign`}>
+
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="globe" /></span>
           {' '}
 &nbsp; &nbsp; English/日本語
         </li>
+        </div>
 
       <div className="centerAlign box">
         <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
