@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Affix, Layout, Row, Col,
+ Popover, Affix, Layout, Row, Col,
 } from 'antd';
 import FA from 'react-fontawesome';
 import FeatherIcon from 'feather-icons-react';
@@ -14,6 +14,15 @@ const { Content } = Layout;
 const {
   facebook, github, instagram, twitter,
 } = Config.social;
+
+const content = (
+  <div>
+    <p>3DSFuuqBVUCwtXC8yi3jSKyVU6DZfhYzcA</p>
+  </div>
+);
+
+
+
 
 const DomContent = () => (
   <aside>
@@ -56,6 +65,8 @@ const DomContent = () => (
         <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
         <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FA name="github" /></a>
         <a href={instagram} target="_blank" label="button" rel="noopener noreferrer"><FA name="linkedin" /></a>
+        <Popover content={content} title="My Bitcoin Address"><a label="button" rel="noopener noreferrer"><FA name="bitcoin" /></a></Popover>
+
       </div>
     </div>
   </aside>
