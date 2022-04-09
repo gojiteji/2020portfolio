@@ -9,7 +9,7 @@ const SkillsProgress = () => (
     <Row gutter={[30, 20]}>
     <ul>
     <Row gutter={[10, 20]}><li><h3>NARA Institute of Science and Technology (NAIST) (Apr. 2022 - )</h3>
-    Information Science</li></Row>
+    Information Science AHC Lab.</li></Row>
     <br/>
     <Row gutter={[20, 20]}><li><h3>Hokkaido University (Apr. 2020 - Mar. 2022)</h3>
     School of Engineering Language Media Laboratory</li></Row>
