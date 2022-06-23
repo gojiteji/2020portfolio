@@ -17,7 +17,9 @@ const SkillsProgress = () => (
     <Row gutter={[30, 20]}><li><h3>National Institute of Technology, Suzuka College (Apr. 2015 - Mar. 2020)</h3>
 Department of Electronic and Information Engineering</li></Row>
 </ul>
+
 </Row>
+{/*
 
     <h2>Favorite Languages</h2>
     <Row gutter={[20, 20]}>
@@ -52,7 +54,7 @@ Department of Electronic and Information Engineering</li></Row>
         />
       </Col>
     </Row>
-    
+*/}
   </div>
 );
 

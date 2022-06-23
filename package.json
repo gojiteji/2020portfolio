@@ -67,5 +67,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/rolwin100/rolwinreevan_gatsby_blog"
+  },
+  "resolutions": {
+  
+    "yargs": "^13.3.2"
+  
   }
 }

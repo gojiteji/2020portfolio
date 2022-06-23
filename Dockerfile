@@ -10,6 +10,7 @@ COPY package.json ./ package-lock.json ./
 RUN npm install
 COPY . ./
 
+
 # use command below
 # docker build -t gatsbyblog . --platform linux/amd64
-# docker run -p 9000:9000-v /Users/gojiteji/Documents/2020portfolio:/app/2020portfolio gatsbyblog /bin/bash
+# docker run -it --platform linux/x86_64 -p 9000:9000 -v /Users/gojiteji/Documents/2020portfolio:/app/2020portfolio gatsbyblog /bin/bash
