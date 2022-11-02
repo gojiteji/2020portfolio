@@ -10,6 +10,13 @@ import 'react-events-timeline/dist/main.css';
 const interndata = [
   {
     date: "2022",
+    title: 'Nouslagus Web & AI Engineer',
+    label: '',
+    location: '2022/3-2022/10',
+    content: (<div></div>),
+},
+  {
+    date: "2022",
     title: ' Started R&D work as a sole proprietor',
     label: '',
     location: '2022/3',
