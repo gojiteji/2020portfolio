@@ -38,12 +38,7 @@ export default () => {
                 About
               </Link>
             </li>
-            <li className={style.navItem}>
-              <Link to="/publications" onClick={toggleMenu} activeClassName={style.anchorActive}>
-              publications
-              </Link>
-            </li>
-
+            
             <li className={style.navItem}>
               <a href="https://blog.gojiteji.com" target = "_blank">
                 <b>Blog<FeatherIcon size="19" icon="external-link" /></b>
