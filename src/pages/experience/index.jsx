@@ -127,7 +127,6 @@ const Experience = () => (
   <div>
     <h2>Experiences</h2>
         <EventsTimeline  data={interndata} />
-        <br/><br/><br/>
         </div>
 
 );
