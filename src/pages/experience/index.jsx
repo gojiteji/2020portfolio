@@ -2,12 +2,26 @@ import React from 'react';
 import { Layout, Row, Col } from 'antd';
 import Header from '../../components/PageLayout/Header';
 import SidebarWrapper from '../../components/PageLayout/Sidebar';
-
+import Helmet from "react-helmet"
 import EventsTimeline from 'react-events-timeline';
 import 'react-events-timeline/dist/main.css';
 
 
 const interndata = [
+  {
+    date: "2022",
+    title: 'Nouslagus Web & AI Engineer',
+    label: '',
+    location: '2022/3-2022/10',
+    content: (<div></div>),
+},
+  {
+    date: "2022",
+    title: ' Started R&D work as a sole proprietor',
+    label: '',
+    location: '2022/3',
+    content: (<div></div>),
+},
   {
     date: "2021",
     title: 'ELYZA, ML Engineer Internship',
@@ -52,13 +66,8 @@ const interndata = [
   location: '2018/9/3-9/7',
   content: (<div></div>),
 },
-{
-  date: "2016",
-  title: 'トビタテ留学ジャパン高校生2期',
-  label: '',
-  location: '',
-  content: (<div></div>),
-},
+
+
 
 ];
 
@@ -67,6 +76,21 @@ const interndata = [
 
 const awarddata = [
     
+  {
+    date: "2021",
+    title: 'JPHACKS2021　Award Day Finalist',
+    label: '',
+    location: '2021/11/20',
+    content: (<div>Product:ココノマスク</div>),
+},
+
+  {
+    date: "2021",
+    title: 'JPHACKS2021　Best Hacking Sprint Award ',
+    label: '',
+    location: '2021/10/30',
+    content: (<div>Product:ココノマスク</div>),
+},    
   {
     date: "2020",
     title: 'JPHACKS2020　Award Day Finalist',
@@ -95,13 +119,6 @@ const awarddata = [
   location: '2017/11/3-4',
   content: (<div>Product:NOTELOOK</div>),
 },
-{
-  date: "2016",
-  title: '第1回docomo近未来学生アイデアコンテスト　敢闘賞',
-  label: '',
-  location: '2016/2/27',
-  content: (<div>Product:おらわらお</div>),
-},
 ];
 
 
@@ -110,6 +127,7 @@ const Experience = () => (
     <Layout className="container">
 
       <Header />
+      <Helmet title="gojiteji | Experience" />
       <SidebarWrapper>
         <div className="marginTopTitle">
           <h1 className="titleSeparate">Experience</h1>

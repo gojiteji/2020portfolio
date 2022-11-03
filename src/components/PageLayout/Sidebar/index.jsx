@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Affix, Layout, Row, Col,
+ Popover, Affix, Layout, Row, Col,
 } from 'antd';
 import FA from 'react-fontawesome';
 import FeatherIcon from 'feather-icons-react';
@@ -14,6 +14,15 @@ const { Content } = Layout;
 const {
   facebook, github, instagram, twitter,
 } = Config.social;
+
+const content = (
+  <div>
+    <p>3DSFuuqBVUCwtXC8yi3jSKyVU6DZfhYzcA</p>
+  </div>
+);
+
+
+
 
 const DomContent = () => (
   <aside>
@@ -33,20 +42,32 @@ const DomContent = () => (
       <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="map-pin" /></span>
           {' '}
-&nbsp; &nbsp; Japan
+&nbsp;  Japan
         </li>
+        <div className={`${style.boxName} centerAlign`}>
+
+        <li className={`${style.contactBlockItem}`}>
+          <span><FeatherIcon size="19" icon="globe" /></span>
+          {' '}
+&nbsp;  English/日本語
+        </li>
+        </div>
+        <div className={`${style.boxName} centerAlign`}>
+
+<li className={`${style.contactBlockItem}`}>
+  <span><FeatherIcon size="19" icon="mail" /></span>
+  {' '}
+<a href="mailto:mail@gojiteji.com">&nbsp; mail@gojiteji.com</a>
+</li>
+</div>
+
       <div className="centerAlign box">
         <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
         <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FA name="github" /></a>
         <a href={instagram} target="_blank" label="button" rel="noopener noreferrer"><FA name="linkedin" /></a>
+        <Popover content={content} title="My Bitcoin Address"><a label="button" rel="noopener noreferrer"><FA name="bitcoin" /></a></Popover>
+
       </div>
-
-
-     
-      <div className={style.contact}>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhEXAkWGxw4woadbbJa83ZvQVdfoSECjunTUR_L1_2bchVOg/viewform" download target="_blank"> 　　Contact　　</a>
-      </div>
-
     </div>
   </aside>
 );

@@ -6,7 +6,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/gojiteji/Documents/2020portfolio/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Koki Tanaka","short_name":"Koki Tanaka","start_url":"/","background_color":"#FC965D","theme_color":"#FC965D","display":"standalone","icon":"src/images/icon.png","legacy":true,"cache_busting_mode":"query","include_favicon":true,"theme_color_in_head":true,"cacheDigest":"23e67befa94b3ecb84b8945208cfad93"},
+      options: {"plugins":[],"name":"Koki Tanaka","short_name":"Koki Tanaka","start_url":"/","background_color":"#FC965D","theme_color":"#FC965D","display":"standalone","icon":"src/images/icon.png","legacy":true,"cache_busting_mode":"query","include_favicon":true,"theme_color_in_head":true,"cacheDigest":"d43eb774a419d8257bbc06991565f652"},
     },{
       plugin: require('/Users/gojiteji/Documents/2020portfolio/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[]},
