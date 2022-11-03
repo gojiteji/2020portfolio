@@ -18,11 +18,11 @@ const pubdata = [
 ];
 
 
-const Experience = () => (
+const Publications = () => (
   <div>
-    <h2>Experiences</h2>
+    <h2>Publications</h2>
   <EventsTimeline color='#FFDC00' data={pubdata} />
   </div>
 );
 
-export default Experience;
+export default Publications;
