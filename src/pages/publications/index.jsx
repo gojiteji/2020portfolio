@@ -12,8 +12,12 @@ import 'react-events-timeline/dist/main.css';
 const pubdata = [
     
   {
-   
-},
+    date: "20xx",
+    title: 'null',
+    label: '',
+    location: 'null',
+    content: (<div>null</div>),
+  },
 
 ];
 
