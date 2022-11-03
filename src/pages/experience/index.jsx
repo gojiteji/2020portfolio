@@ -12,7 +12,7 @@ const interndata = [
     date: "2022",
     title: '奈良先端科学技術大学院大学 研究員',
     label: '',
-    location: '2022/10-'
+    location: '2022/10-',
     content: (<div></div>),
 },
 
