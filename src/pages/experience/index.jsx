@@ -10,6 +10,14 @@ import 'react-events-timeline/dist/main.css';
 const interndata = [
   {
     date: "2022",
+    title: '奈良先端科学技術大学院大学 研究員',
+    label: '',
+    location: '2022/10-'
+    content: (<div></div>),
+},
+
+  {
+    date: "2022",
     title: 'Nouslagus Web & AI Engineer',
     label: '',
     location: '2022/3-2022/10',
