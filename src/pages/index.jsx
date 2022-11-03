@@ -18,9 +18,7 @@ export default () => (
         <>
           <AboutMe />
           <Skills/>
-          <br></br>
-          <Experience />]
-          <br></br>
+          <Experience />
           <Publications />
         </>
       </SidebarWrapper>

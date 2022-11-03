@@ -24,6 +24,7 @@ const pubdata = [
 
 const Publications = () => (
   <div>
+    <h1>  </h1>
     <h2>Publications</h2>
   <EventsTimeline color='#FFDC00' data={pubdata} />
   </div>
