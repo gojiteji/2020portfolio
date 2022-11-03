@@ -125,6 +125,7 @@ const awarddata = [
 
 const Experience = () => (
   <div>
+    <h2>Experiences</h2>
         <EventsTimeline title='Internships & Jobs' icon={ <i className='fa fa-code'/>} color='' data={interndata} />
         <br/><br/><br/>
         <EventsTimeline title='Awards' icon={ <i  className='fa fa-trophy '/>} color='#FFDC00' data={awarddata} />
