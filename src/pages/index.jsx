@@ -3,7 +3,6 @@ import { Layout } from 'antd';
 import Header from '../components/PageLayout/Header';
 import SidebarWrapper from '../components/PageLayout/Sidebar';
 import AboutMe from '../components/PageFragments/HomePage/AboutMe';
-import Skills from '../components/PageFragments/HomePage/SkillProgress';
 import Helmet from "react-helmet"
 
 export default () => (
@@ -14,7 +13,6 @@ export default () => (
       <SidebarWrapper>
         <>
           <AboutMe />
-          <Skills />
         </>
       </SidebarWrapper>
     </Layout>
