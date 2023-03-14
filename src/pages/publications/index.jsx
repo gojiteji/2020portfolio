@@ -14,9 +14,9 @@ const pubdata = [
   {
     date: "2023",
     title: '田中康紀, 須藤克仁, 中村哲. "ByT5 の Attention を用いたトークン結合" 言語処理学会 第29回年次大会 p800-p804, ポスター発表',
-    label: '2023/3',
-    location: '沖縄',
-    content: (<div>null</div>),
+    label: '',
+    location: '2023/3',
+    content: (<div></div>),
   },
 
 ];
