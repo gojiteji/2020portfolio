@@ -12,7 +12,7 @@ import Config from '../../../../config';
 
 const { Content } = Layout;
 const {
-  facebook, github, linkedin,huggingface, twitter,
+  facebook, github, linkedin,huggingface, twitter,sidmoid.social,
 } = Config.social;
 
 const content = (
@@ -66,7 +66,7 @@ const DomContent = () => (
         <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FA name="github" /></a>
         <a href={linkedin} target="_blank" label="button" rel="noopener noreferrer"><FA name="linkedin" /></a>
         <a href={huggingface} target="_blank" label="button" rel="noopener noreferrer">🤗</a>
-
+        <a href={sigmoid} target="_blank" label="button" rel="noopener noreferrer">🦣</a>
         <Popover content={content} title="My Bitcoin Address"><a label="button" rel="noopener noreferrer"><FA name="bitcoin" /></a></Popover>
 
       </div>
