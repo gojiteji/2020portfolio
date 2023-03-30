@@ -28,7 +28,6 @@ export default class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
         </body>
-        <a rel="me" href="https://sigmoid.social/@gojiteji">Mastodon</a>
       </html>
     );
   }
