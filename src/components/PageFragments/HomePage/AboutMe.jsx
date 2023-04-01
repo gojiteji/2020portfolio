@@ -10,7 +10,7 @@ const AboutMe = () => {
         
         <h1 className="titleSeparate">About Me</h1>
         <p>
-        Hello. Thank you for visiting this site. I am currently a first-year master's student in Japan. My technical fields of interest are NLP and web development. I mainly code in Python and Go. I also like to use HuggingFace and JAX. If you have any questions, please feel free to contact me via my e-mail.
+        Hello. Thank you for visiting this site. I am currently a second-year master's student in Japan. My technical fields of interest are NLP and web development. I mainly code in Python and Go. I also like to use HuggingFace and JAX. If you have any questions, please feel free to contact me via my e-mail.
         </p>
         
       </div>
