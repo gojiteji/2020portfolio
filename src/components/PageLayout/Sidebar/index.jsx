@@ -5,7 +5,8 @@ import {
 //import FA from 'react-fontawesome';
 
 import FeatherIcon from 'feather-icons-react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMastodon, faXTwitter, faLinkedinIn, faGithub, faFaceSmilingHands} from '@fortawesome/free-brands-svg-icons';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { globalHistory } from '@reach/router';
 import style from './sidebar.module.less';
@@ -64,11 +65,11 @@ const DomContent = () => (
 </div>
 
       <div className="centerAlign box">
-        <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon="fa-brands fa-x-twitter" /></a>
-        <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon="fa-brands fa-github" /></a>
-        <a href={linkedin} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon="fa-brands fa-linkedin-in" /></a>
-        <a href={huggingface} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon="fa-duotone fa-face-smiling-hands" /></a>
-        <a href={sigmoid} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon="fa-brands fa-mastodon" /></a>
+        <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon={faXTwitter} /></a>
+        <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
+        <a href={linkedin} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+        <a href={huggingface} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon={faFaceSmilingHands} /></a>
+        <a href={sigmoid} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon={faMastodon} /></a>
         <Popover content={content} title="My Bitcoin Address"><a label="button" rel="noopener noreferrer"><FontAwesomeIcon icon="fa-brands fa-btc" /></a></Popover>
 
       </div>
