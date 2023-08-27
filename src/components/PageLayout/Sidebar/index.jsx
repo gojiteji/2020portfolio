@@ -2,8 +2,10 @@ import React from 'react';
 import {
  Popover, Affix, Layout, Row, Col,
 } from 'antd';
-import FA from 'react-fontawesome';
+//import FA from 'react-fontawesome';
+
 import FeatherIcon from 'feather-icons-react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { globalHistory } from '@reach/router';
 import style from './sidebar.module.less';
@@ -62,12 +64,12 @@ const DomContent = () => (
 </div>
 
       <div className="centerAlign box">
-        <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
-        <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FA name="github" /></a>
-        <a href={linkedin} target="_blank" label="button" rel="noopener noreferrer"><FA name="linkedin" /></a>
-        <a href={huggingface} target="_blank" label="button" rel="noopener noreferrer">🤗</a>
-        <a href={sigmoid} target="_blank" label="button" rel="noopener noreferrer">🦣</a>
-        <Popover content={content} title="My Bitcoin Address"><a label="button" rel="noopener noreferrer"><FA name="bitcoin" /></a></Popover>
+        <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon="fa-brands fa-x-twitter" /></a>
+        <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon="fa-brands fa-github" /></a>
+        <a href={linkedin} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon="fa-brands fa-linkedin-in" /></a>
+        <a href={huggingface} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon="fa-duotone fa-face-smiling-hands" /></a>
+        <a href={sigmoid} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon="fa-brands fa-mastodon" /></a>
+        <Popover content={content} title="My Bitcoin Address"><a label="button" rel="noopener noreferrer"><FontAwesomeIcon icon="fa-brands fa-btc" /></a></Popover>
 
       </div>
     </div>
