@@ -6,7 +6,7 @@ import {
 
 import FeatherIcon from 'feather-icons-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMastodon, faXTwitter, faLinkedinIn, faGithub, faFaceSmilingHands} from '@fortawesome/free-brands-svg-icons';
+import { faMastodon, faXTwitter, faLinkedinIn, faGithub, faFaceSmilingHands, faBtc} from '@fortawesome/free-brands-svg-icons';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { globalHistory } from '@reach/router';
 import style from './sidebar.module.less';
@@ -65,12 +65,12 @@ const DomContent = () => (
 </div>
 
       <div className="centerAlign box">
-        <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon={faXTwitter} /></a>
-        <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
-        <a href={linkedin} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-        <a href={huggingface} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon={faFaceSmilingHands} /></a>
-        <a href={sigmoid} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon={faMastodon} /></a>
-        <Popover content={content} title="My Bitcoin Address"><a label="button" rel="noopener noreferrer"><FontAwesomeIcon icon="fa-brands fa-btc" /></a></Popover>
+        <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon={faXTwitter} className="larger-icon" />&nbsp;&nbsp;</a>
+        <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} className="larger-icon" />&nbsp;&nbsp;</a>
+        <a href={linkedin} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedinIn} className="larger-icon" />&nbsp;&nbsp;</a>
+        <a href={huggingface} target="_blank" label="button" rel="noopener noreferrer"><img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AITFw-wDdRyc6n80MIeTx5vuIyE-cuI8n2cwNE1F4jg3ZtisucP4lLVWEQg626dzZ5Hbc_aXGdW9eGEVgb9IeZlAYMbWUuQ3=w1960-h3302" width="36" height="36">&nbsp;&nbsp;</a>
+        <a href={sigmoid} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon={faMastodon} className="larger-icon" />&nbsp;&nbsp;</a>
+        <Popover content={content} title="My Bitcoin Address"><a label="button" rel="noopener noreferrer"><FontAwesomeIcon icon={faBtc} className="larger-icon" /></a></Popover>
 
       </div>
     </div>
