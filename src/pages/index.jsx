@@ -13,7 +13,7 @@ export default () => (
   <Layout className="outerPadding">
     <Layout className="container">
       <Header />
-      <Helmet title="gojiteji | About" />
+      <Helmet title="Koki Tanaka | About" />
       <SidebarWrapper>
         <>
           <AboutMe />
