@@ -10,6 +10,13 @@ import 'react-events-timeline/dist/main.css';
 const interndata = [
   {
     date: "2022",
+    title: 'BESNA Institute Resarch & Development Engineer',
+    label: '',
+    location: '2022/11-',
+    content: (<div></div>),
+},
+  {
+    date: "2022",
     title: '奈良先端科学技術大学院大学 研究員',
     label: '',
     location: '2022/11-',
