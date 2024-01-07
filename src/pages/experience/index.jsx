@@ -12,7 +12,7 @@ const interndata = [
     date: "2022",
     title: 'BESNA Institute Resarch & Development Engineer',
     label: '',
-    location: '2022/11-',
+    location: '2023/12-',
     content: (<div></div>),
 },
   {
