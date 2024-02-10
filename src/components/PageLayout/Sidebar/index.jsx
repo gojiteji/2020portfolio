@@ -6,7 +6,7 @@ import {
 
 import FeatherIcon from 'feather-icons-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMastodon, faXTwitter, faLinkedinIn, faGithub, faFaceSmilingHands, faBtc} from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faXTwitter, faLinkedinIn, faGithub, faFaceSmilingHands, faBtc} from '@fortawesome/free-brands-svg-icons';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { globalHistory } from '@reach/router';
 import style from './sidebar.module.less';
@@ -69,7 +69,7 @@ const DomContent = () => (
         <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} className="fa-2x" />&nbsp;&nbsp;</a>
         <a href={linkedin} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedinIn} className="fa-2x" />&nbsp;&nbsp;</a>
         <a href={huggingface} target="_blank" label="button" rel="noopener noreferrer"><img src="https://gojiteji.com/hf-logo.png" width="36" height="36"/>&nbsp;&nbsp;</a>
-        <a href={facebook} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon={facebook} className="fa-2x" />&nbsp;&nbsp;</a>
+        <a href={facebook} target="_blank" label="button" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} className="fa-2x" />&nbsp;&nbsp;</a>
         <Popover content={content} title="My Bitcoin Address"><a label="button" rel="noopener noreferrer"><FontAwesomeIcon icon={faBtc} className="fa-2x" /></a></Popover>
 
       </div>
