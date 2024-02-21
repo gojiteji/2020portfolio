@@ -9,7 +9,7 @@ import 'react-events-timeline/dist/main.css';
 
 const interndata = [
   {
-    date: "2022",
+    date: "2023",
     title: 'BESNA Institute Resarch & Development Engineer',
     label: '',
     location: '2023/12-',
