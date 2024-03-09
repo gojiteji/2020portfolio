@@ -94,19 +94,11 @@ const awarddata = [
     
   {
     date: "2021",
-    title: 'JPHACKS2021　Award Day Finalist',
+    title: 'JPHACKS2021　Best Hacking Sprint Award & Award Day Finalist',
     label: '',
     location: '2021/11/20',
     content: (<div>Product:ココノマスク</div>),
 },
-
-  {
-    date: "2021",
-    title: 'JPHACKS2021　Best Hacking Sprint Award ',
-    label: '',
-    location: '2021/10/30',
-    content: (<div>Product:ココノマスク</div>),
-},    
   {
     date: "2020",
     title: 'JPHACKS2020　Award Day Finalist',
@@ -142,6 +134,10 @@ const Experience = () => (
   <div>
     <h2>Experiences</h2>
         <EventsTimeline  data={interndata} />
+        <h2>Awards</h2>
+        <EventsTimeline  data={awarddata} />
+        </div>
+
         </div>
 
 );
