@@ -8,6 +8,14 @@ import 'react-events-timeline/dist/main.css';
 
 
 const interndata = [
+  /*{
+    date: "2024",
+    title: 'mocomoco inc. CEO',
+    label: '',
+    location: '2024/4-',
+    content: (<div></div>),
+},*/
+
   {
     date: "2023",
     title: 'BESNA Institute Resarch & Development Engineer',
@@ -19,7 +27,7 @@ const interndata = [
     date: "2022",
     title: '奈良先端科学技術大学院大学 研究員',
     label: '',
-    location: '2022/11-',
+    location: '2022/11-2024/3',
     content: (<div></div>),
 },
 
