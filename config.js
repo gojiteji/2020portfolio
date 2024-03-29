@@ -20,6 +20,7 @@ pages: {
     sigmoid: 'https://sigmoid.social/@gojiteji',
     facebook: 'https://www.facebook.com/gojiteji/',
     note: 'https://note.com/gojiteji',
+    youtube: 'https://www.youtube.com/@gojiteji',
 
   },
   contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
