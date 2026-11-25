@@ -1,1 +1,4 @@
 .DS_Store
+
+/node_modules/pngquant-bin/
+/node_modules/mozjpeg/
