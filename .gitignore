@@ -2,3 +2,5 @@
 
 /node_modules/pngquant-bin/
 /node_modules/mozjpeg/
+/node_modules/**/sharp/
+/node_modules/sharp/
