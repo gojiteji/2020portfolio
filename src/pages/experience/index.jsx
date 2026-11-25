@@ -10,15 +10,10 @@ import 'react-events-timeline/dist/main.css';
 const interndata = [
   {
     date: "2025",
-    title: 'LLM-jp（国立情報学研究所）',
+    title: '国立情報学研究所（NII） LLM-jp リサーチアシスタント（RA）',
     label: '',
     location: '2025/2–2025/7',
-    content: (
-      <div>
-        リサーチアシスタントとして、高度化ワーキンググループ（WG12）で大規模言語モデルの推論効率と解釈性を高めるための事前学習実験に取り組んだ。
-        {' '}<a href="https://llm-jp.nii.ac.jp/">LLM-jp 公式サイト</a>
-      </div>
-    ),
+    content: (<div></div>),
   },
   {
     date: "2024",
