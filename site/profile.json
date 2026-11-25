@@ -1,0 +1,120 @@
+{
+  "introduction": "Hello. Thank you for visiting this site. I am the CEO of mocomoco inc. I previously studied in the doctoral program at NAIST's NLP Lab in Japan. My technical fields of interest are NLP and web development. I mainly code in Python and Go. I also like to use HuggingFace and JAX. If you have any questions, please feel free to contact me via my e-mail.",
+  "education": [
+    {
+      "title": "NARA Institute of Science and Technology (NAIST) (Apr. 2024 - Sep. 2026)",
+      "description": "Doctoral program, NLP Lab (withdrew)."
+    },
+    {
+      "title": "NARA Institute of Science and Technology (NAIST) (Apr. 2022 - Mar. 2024)",
+      "description": "Master of Engineering, Augmented Human Communication Lab."
+    },
+    {
+      "title": "Hokkaido University (Apr. 2020 - Mar. 2022)",
+      "description": "Bachelor's of Engineering, Language Media Lab."
+    },
+    {
+      "title": "National Institute of Technology, Suzuka College (Apr. 2015 - Mar. 2020)",
+      "description": "Department of Electronic and Information Engineering, Aoyama Lab."
+    }
+  ],
+  "experience": [
+    {
+      "year": "2025",
+      "title": "国立情報学研究所（NII） LLM-jp リサーチアシスタント（RA）",
+      "period": "2025/2–2025/7"
+    },
+    {
+      "year": "2024",
+      "title": "mocomoco inc. CEO",
+      "period": "2024/4-"
+    },
+    {
+      "year": "2023",
+      "title": "BESNA Institute Resarch & Development Engineer",
+      "period": "2023/12-"
+    },
+    {
+      "year": "2022",
+      "title": "奈良先端科学技術大学院大学 研究員",
+      "period": "2022/11-2024/3"
+    },
+    {
+      "year": "2022",
+      "title": "Nouslagus Web & AI Engineer",
+      "period": "2022/3-2022/10"
+    },
+    {
+      "year": "2021",
+      "title": "ELYZA, ML Engineer Internship",
+      "period": "2021/5-2021/9"
+    },
+    {
+      "year": "2020",
+      "title": "KitaLabs Web Engineer",
+      "period": "2020/10-2021/3"
+    },
+    {
+      "year": "2020",
+      "title": "Rakuten 二子玉川夏の陣 2020 online internship",
+      "period": "2020/9/14-25"
+    },
+    {
+      "year": "2020",
+      "title": "CyberAgent 2days サーバーサイド向け開発型インターンシップ",
+      "period": "2020/6/6-7"
+    },
+    {
+      "year": "2019",
+      "title": "日経新聞社　短期インターンシップ(大阪)",
+      "period": "2019/8/23-25"
+    },
+    {
+      "year": "2018",
+      "title": "NEO JAPAN　インターンシップ",
+      "period": "2018/9/3-9/7"
+    }
+  ],
+  "publications": [
+    {
+      "year": "2026",
+      "title": "渋木英潔, 田中康紀, 阪本浩太郎. 「ローカルLLMを用いた音声診療対話からの自動要約による電子カルテ作成支援」",
+      "period": "2026/11",
+      "description": "第46回医療情報学連合大会（第27回日本医療情報学会学術大会）, ハイパーデモ, 3-PA-3-03.",
+      "url": "https://www.jcmi46.org/program.html",
+      "link": "大会プログラム"
+    },
+    {
+      "year": "2025",
+      "title": "Shusuke Komatsu, Kazuyo Onishi, Koki Tanaka, Dohyun Kim, Koichiro Yoshino. “Efficient ASR Domain Adaptation with Long Noun Phrases: Harnessing the Linguistic Characteristics of Japanese”",
+      "period": "2025/12",
+      "description": "IEEE Automatic Speech Recognition and Understanding Workshop (ASRU 2025), pp. 1–7.",
+      "url": "https://doi.org/10.1109/ASRU65441.2025.11434793",
+      "link": "DOI"
+    },
+    {
+      "year": "2025",
+      "title": "池見侑亮, 大西一誉, 小松秀輔, 阪本浩太郎, 田中康紀, 金道鉉, 吉野幸一郎. 「事前学習済み音響特徴を用いたConformerベースEnd-to-End話者分離モデル」",
+      "period": "2025/9",
+      "description": "第20回言語処理若手シンポジウム（YANS2025）, ポスター発表, S1-P01.",
+      "url": "https://yans.anlp.jp/entry/yans2025program",
+      "link": "大会プログラム"
+    },
+    {
+      "year": "2025",
+      "title": "小松秀輔, 大西一誉, 田中康紀, 金道鉉, 吉野幸一郎. 「合成単語データを用いた低コスト高品質な音声認識のドメイン適応」",
+      "period": "2025/3",
+      "description": "言語処理学会 第31回年次大会（NLP2025）, ポスター発表, P5-14.",
+      "url": "https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/P5-14.pdf",
+      "link": "発表論文（PDF）"
+    },
+    {
+      "year": "2023",
+      "title": "田中康紀, 須藤克仁, 中村哲. \"ByT5 の Attention を用いたトークン結合\" 言語処理学会 第29回年次大会 p800-p804, ポスター発表",
+      "period": "2023/3",
+      "description": "",
+      "url": "https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q3-5.pdf",
+      "link": "発表論文（PDF）"
+    }
+  ]
+}

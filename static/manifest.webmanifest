@@ -1,0 +1,9 @@
+{
+  "name": "Koki Tanaka",
+  "short_name": "Koki Tanaka",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FC965D",
+  "theme_color": "#FC965D",
+  "icons": [{"src": "/assets/favicon.png", "sizes": "244x246", "type": "image/png"}]
+}
